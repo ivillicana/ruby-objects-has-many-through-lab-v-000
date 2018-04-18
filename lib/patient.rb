@@ -1,4 +1,4 @@
-class Patient 
+class Patient
   attr_accessor :name, :appointments
 
   def initialize (name)
@@ -7,6 +7,6 @@ class Patient
   end
 
   def add_appointment(appt)
-    
+
   end
 end
