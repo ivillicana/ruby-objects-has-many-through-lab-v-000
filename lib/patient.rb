@@ -10,4 +10,10 @@ class Patient
     @appointments << appt
     appt.patient = self
   end
+
+  def doctors
+    @appointments.collect do |x|
+      x.doctor
+    end
+  end
 end
